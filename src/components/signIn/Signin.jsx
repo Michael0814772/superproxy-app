@@ -21,7 +21,7 @@ const Signin = () => {
 
                             <div className="text-left mt-3 mb-3">
                                 <h1 className='text-hmobile mb-5 font-bold'>Sign in</h1>
-                                <p className='text-pmobile mb-2'>New User? <Link to="#" className='text-btncolor ml-2 font-medium'>Create an account</Link></p>
+                                <p className='text-pmobile mb-2'>New User? <Link to="/signup" className='text-btncolor ml-2 font-medium'>Create an account</Link></p>
                             </div>
 
                             <div className="text-left mb-4">
