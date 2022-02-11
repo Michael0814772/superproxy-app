@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply pt-1 pb-4 border-b-2 border-btncolor focus:border-btncolor focus:outline-none;
+}
+
+.background {
+  @apply lg:bg-[url('/src/assets/background.png')] h-screen bg-no-repeat bg-cover;
+}
+
+.btn {
+  @apply flex justify-center rounded-3xl py-3 px-5 text-pmobile font-medium flex justify-center items-center;
+}

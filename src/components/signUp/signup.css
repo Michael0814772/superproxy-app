@@ -1,0 +1,9 @@
+.almost {
+    width: calc(100%-10px);
+}
+
+.desktop {
+    width: 230px;
+    height: 58px;
+}
+
