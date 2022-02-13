@@ -27,7 +27,7 @@ const Signin = () => {
                             <div className="text-left mb-4">
 
                                 <div className='mb-2'>
-                                    <input type="text" placeholder="Email address" className='input w-full' />
+                                    <input type="text" placeholder="Email address" className='input w-full mb-1' />
                                     <p className='text-textred text-errormobile'>Email already exists</p>
                                 </div>
 
@@ -36,7 +36,7 @@ const Signin = () => {
 
                                     <svg className="w-6 h-6 absolute top-3 right-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeWidth="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"></path></svg>
 
-                                    <ol className='list-disc list-inside'>
+                                    <ol className='list-disc list-inside mt-1'>
                                         <li className='text-textred text-errormobile'><span className='-ml-2'>password should be at leaset 6 characters list</span></li>
                                         <li className='text-textred text-errormobile'><span className='-ml-2'>must include a number</span></li>
                                     </ol>
@@ -45,7 +45,7 @@ const Signin = () => {
                             </div>
 
                             <div className='relative'>
-                                <button className='text-btnmobile border border-btncolor py-2 px-6 rounded-3xl text-black font-medium bg-btncolor absolute right-0'>Continue</button>
+                                <button className='text-btnmobile border border-btncolor py-2 px-6 rounded-3xl text-black font-medium bg-btncolor absolute right-0'><Link to="/verifyone">Continue</Link></button>
                             </div>
 
                             <div className='mt-20 flex items-center'>

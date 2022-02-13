@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .input {
-  @apply pt-1 pb-4 border-b-2 border-btncolor focus:border-btncolor focus:outline-none;
+  @apply pt-1 pb-3 border-b border-spanBorder focus:border-btncolor focus:outline-none;
 }
 
 .background {

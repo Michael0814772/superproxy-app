@@ -7,6 +7,7 @@ module.exports = {
         acolor: '#F9C900',
         btncolor: '#F9C900',
         textred: '#EF3635',
+        navtext: '#3D79CA',
       },
       // backgroundImage: {
       //   'image': "url('/src/assets/background.png')",
@@ -35,6 +36,10 @@ module.exports = {
       width: {
         mfull: 'calc(100% - 10px)',
         signinWidth: '579px',
+        navitems: '65%'
+      },
+      height: {
+        verifyheight: '629px',
       },
     },
     plugins: [],
