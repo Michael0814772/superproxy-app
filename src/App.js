@@ -11,7 +11,7 @@ function App() {
       <Route path="/signin" element={<Signin />} />
       <Route path='/verifyone' element={<VerifyNumber />} />
       <Route path='/verifytwo' element={<VerifyNumberTwo />} />
-      <Route path='/feed' element={<Feed />} />
+      <Route path='/feed/*' element={<Feed />} exact />
       
     </Routes>
   );

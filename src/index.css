@@ -13,3 +13,4 @@
 .btn {
   @apply flex justify-center rounded-3xl py-3 px-5 text-pmobile font-medium flex justify-center items-center;
 }
+

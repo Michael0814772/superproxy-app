@@ -7,3 +7,5 @@ export { default as Message } from './message/Message';
 export { default as VerifyNumber } from './verifyNumber/VerifyNumber';
 export { default as VerifyNumberTwo } from './verifyNumber/VerifyNumberTwo';
 export { default as Terms } from './terms/Terms';
+export { default as Artisian } from './artisian/Artisian';
+export { default as ArtisianFeed } from './artisian/ArtisianFeed';

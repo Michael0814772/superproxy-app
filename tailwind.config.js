@@ -8,6 +8,11 @@ module.exports = {
         btncolor: '#F9C900',
         textred: '#EF3635',
         navtext: '#3D79CA',
+        inputtext: 'rgba(0, 0, 0, 0.5)',
+        bold: '#120E21',
+        unverify: 'rgba(0, 0, 0, 0.3)',
+        available : 'rgba(0, 0, 0, 0.05)',
+        btnharsh: '#B3B3B3',
       },
       // backgroundImage: {
       //   'image': "url('/src/assets/background.png')",
@@ -40,6 +45,7 @@ module.exports = {
       },
       height: {
         verifyheight: '629px',
+        navheight: '829px',
       },
     },
     plugins: [],
