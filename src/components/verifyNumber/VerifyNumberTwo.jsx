@@ -3,7 +3,7 @@ import './verifynumber.css';
 import logo from '../../assets/logo2.png';
 import mobileLogo from '../../assets/Superproxy.png';
 import { Terms } from '..';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const VerifyNumberTwo = () => {

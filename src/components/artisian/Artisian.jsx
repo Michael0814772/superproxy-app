@@ -3,7 +3,6 @@ import { FcCheckmark } from 'react-icons/fc';
 import { MdClose } from 'react-icons/md';
 import { ArtisianFeed } from '..';
 import Footer from '../../container/feedNavbar/Footer';
-import GetStarted from '../../container/getStarted/GetStarted';
 
 const Artisian = () => {
     return (
