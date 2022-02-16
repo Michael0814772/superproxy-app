@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FcCheckmark } from 'react-icons/fc';
 import { MdClose } from 'react-icons/md';
 import { ArtisianFeed } from '..';
 import Footer from '../../container/feedNavbar/Footer';
+import { BiChevronDown, BiChevronUp } from 'react-icons/bi';
 
 const Artisian = () => {
+
+    const [arrowUp, setArrowUp] = useState(false);
+
+    const show = () => {
+        setArrowUp(!arrowUp);
+    }
+
     return (
         <div className='relative'>
             <div className='bg-black text-white'>
@@ -43,11 +51,11 @@ const Artisian = () => {
             <div className='md:mt-14 md:grid md:grid-cols-3 lg:px-40 xl:px-56 xl:grid-cols-4 md:gap-1 lg:gap-3 px-6'>
                 <div className='md:col-span-1'>
                     <div className='my-5 md:hidden'>
-                        <p className='border-b border-spanBorder w-fit text-pmobile pb-2'>Show filter <span></span></p>
+                        <p className='border-b border-spanBorder w-fit text-pmobile pb-2 flex items-center' onClick={show}>Show filter <span className='ml-1'>{arrowUp ? <BiChevronDown size={20} /> : <BiChevronUp size={20} />}</span></p>
                     </div>
-                    <div className='md:border border-spanBorder rounded-lg pb-12'>
+                    <div className={`'md:border border-spanBorder rounded-lg pb-12' ${!arrowUp ? 'hidden' : 'block'} md:block`}>
                         <h1 className='hidden md:flex font-medium text-btnmobile mb-6 pl-3 pt-2'>Categories</h1>
-                        <div className='mb-2 md:text-center'>
+                        <div className={`'mb-2 md:text-center hidden'`}>
                             <div className='flex md:pl-5'>
                                 <input type="checkbox" className='mr-1 hidden md:flex' />
                                 <h1 className='font-semibold text-pmobile mb-1'>Building maintenance</h1>
