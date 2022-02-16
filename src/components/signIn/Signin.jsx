@@ -3,11 +3,15 @@ import Terms from '../terms/Terms';
 import './signin.css';
 import logo from '../../assets/logo2.png';
 import mobileLogo from '../../assets/Superproxy.png';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { FcGoogle } from 'react-icons/fc';
 import { AiFillFacebook } from 'react-icons/ai';
 
 const Signin = () => {
+
+
+    const navigate = useNavigate();
+
     return (
         <div className='background'>
             <div className='w-screen relative'>
@@ -45,7 +49,7 @@ const Signin = () => {
                             </div>
 
                             <div className='relative'>
-                                <button className='text-btnmobile border border-btncolor py-2 px-6 rounded-3xl text-black font-medium bg-btncolor absolute right-0'><Link to="/verifyone">Continue</Link></button>
+                                <button className='text-btnmobile border border-btncolor py-2 px-6 rounded-3xl text-black font-medium bg-btncolor absolute right-0' onClick={() => navigate('/verifyone')}>Continue</button>
                             </div>
 
                             <div className='mt-20 flex items-center'>

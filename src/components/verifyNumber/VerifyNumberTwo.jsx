@@ -3,10 +3,13 @@ import './verifynumber.css';
 import logo from '../../assets/logo2.png';
 import mobileLogo from '../../assets/Superproxy.png';
 import { Terms } from '..';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const VerifyNumberTwo = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className='background'>
             <div className='w-screen relative'>
@@ -32,7 +35,7 @@ const VerifyNumberTwo = () => {
                             </div>
 
                             <div className='float-right'>
-                                <button className='text-btnmobile border border-btncolor py-2 px-6 rounded-3xl text-black font-medium bg-btncolor'><Link to='/feed'>Continue</Link></button>
+                                <button className='text-btnmobile border border-btncolor py-2 px-6 rounded-3xl text-black font-medium bg-btncolor' onClick={() => navigate('/feed/artisian')}>Continue to feed</button>
                             </div>
 
                         </form>
