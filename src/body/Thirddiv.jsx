@@ -38,14 +38,14 @@ const Thirddiv = () => {
                 </div>
 
                 <div className='lg:col-span-1 w-full flex lg:justify-center items-center gap-3 px-10 md:px-20 py-14 lg:py-20 relative'>
-                    <div className='mr-40 lg:mr-20'>
+                    <div className='mr-12 lg:mr-20'>
                         <div className='w-2 h-2 rounded-full bg-btnharsh mb-4' />
                         <div className='w-2 h-2 rounded-full bg-btnharsh mb-4' />
                         <div className='w-2 h-2 rounded-full bg-btncolor' />
                     </div>
 
                     <div className='flex items-center'>
-                        <div><img src={say} alt="say" className='w-8 -mt-8 sm:mr-16' /></div>
+                        <div><img src={say} alt="say" className='w-8 -mt-8 mr-6' /></div>
                         <div>
                             <h1 className='w-9/12 text-bold text-homefonttwo md:text-hmobile'>What our Clients say</h1>
                         </div>
