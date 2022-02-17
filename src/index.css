@@ -16,7 +16,28 @@
   @apply lg:bg-[url('/src/assets/background.png')] h-screen bg-no-repeat bg-cover;
 }
 
-.btn {
-  @apply flex justify-center rounded-3xl py-3 px-5 text-pmobile font-medium flex justify-center items-center;
+.homepage {
+  @apply bg-[url('/src/assets/background.png')] h-screen bg-no-repeat bg-cover bg-center;
 }
+
+.btn {
+  @apply flex justify-center rounded-3xl py-3 px-5 text-pmobile font-medium items-center;
+}
+
+.card {
+  @apply h-60 lg:h-72 3xl:h-96 4x1:h-96 4x1:w-cardtwo w-full lg:w-96 3xl:w-card flex flex-col justify-center text-black rounded-lg px-8 3xl:px-14;
+}
+
+.cardheader {
+  @apply font-bold text-cardfont lg:text-cardfont mb-3 3xl:text-homefonttwodesk;
+}
+
+.cardpara {
+  @apply text-btnmobile lg:text-homefont 3xl:text-homefonttwo mb-3;
+}
+
+.cardbtn {
+  @apply px-4 py-2 w-fit rounded-lg font-semibold text-btnmobile lg:text-homefont 3xl:text-homefonttwo;
+}
+
 

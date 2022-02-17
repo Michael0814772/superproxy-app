@@ -37,6 +37,7 @@ const FeedNavBar = () => {
                     <img src={notification} alt="notification" className='w-4 h-4 mr-4' />
                     <img src={chattrans} alt="chattrans" className='w-4 h-4 mr-4' />
                     <img src={profile} alt="profile" className='w-4 h-4 mr-4' />
+                    <p className='text-white -ml-3 hidden md:block'>@username</p>
                 </div>
                 <div className={`absolute bg-white w-navitems md:w-64 top-0 md:top-3 z-50 md:h-navheight transition-all duration-500 ${toogleNav ? '-left-full' : 'left-0 md:left-16'} lg:hidden`}>
                     <div className='flex justify-end mt-4 mb-6'>

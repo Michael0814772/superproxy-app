@@ -53,7 +53,7 @@ const Artisian = () => {
                     <div className='my-5 md:hidden'>
                         <p className='border-b border-spanBorder w-fit text-pmobile pb-2 flex items-center' onClick={show}>Show filter <span className='ml-1'>{arrowUp ? <BiChevronDown size={20} /> : <BiChevronUp size={20} />}</span></p>
                     </div>
-                    <div className={`'md:border border-spanBorder rounded-lg pb-12' ${!arrowUp ? 'hidden' : 'block'} md:block`}>
+                    <div className={`md:border border-spanBorder rounded-lg pb-12 ${!arrowUp ? 'hidden' : 'block'} md:block`}>
                         <h1 className='hidden md:flex font-medium text-btnmobile mb-6 pl-3 pt-2'>Categories</h1>
                         <div className={`'mb-2 md:text-center hidden'`}>
                             <div className='flex md:pl-5'>
